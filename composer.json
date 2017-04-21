@@ -1,0 +1,20 @@
+{
+    "name": "garthreckers/spinion-sample",
+    "repositories": [
+        {
+            "url": "https://github.com/garthreckers/Spinion.git",
+            "type": "git",
+            "reference": "master"
+        }
+    ],
+    "require": {
+        "garthreckers/spinion": "*@dev"
+    },
+    "autoload": {
+    	"psr-4": {
+            "Models\\": "models",
+            "Models\\PostType\\": "models/post-type",
+            "Controllers\\": "controllers"
+    	}
+    }
+}
