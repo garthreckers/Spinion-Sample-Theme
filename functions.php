@@ -6,3 +6,4 @@ require_once('vendor/autoload.php');
     ->wpRemoveJunk()
     ->start();
 
+require_once('routes');
